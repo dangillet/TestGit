@@ -8,7 +8,7 @@ def number_to_words(number, country='france'):
     cases."""
 
     country = country.lower()
-    if country not in ('france', 'belgique', 'suisse'):
+    if country not in ('france', 'belgique', 'suisse', 'congo'):
         raise ValueError('Unknown country {}'.format(country))
 
     unique_names = {
