@@ -80,4 +80,5 @@ if __name__ == '__main__':
     assert number_to_words(71, country="belgique") == "septante-et-un"
     assert number_to_words(70) == "soixante-dix"
     assert number_to_words(50) == "cinquante"
+    assert number_to_words(80) == "quatre-vingt"
 
